@@ -1,0 +1,29 @@
+{
+    "name": "lambda-cors",
+    "version": "1.0.0",
+    "description": "CORS for aws lambda",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublish": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kkpoon/lambda-cors.git"
+    },
+    "keywords": ["aws", "lambda", "cors", "apigateway"],
+    "author": "kkpoon <noopkk@gmail.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/kkpoon/lambda-cors/issues"
+    },
+    "homepage": "https://github.com/kkpoon/lambda-cors#readme",
+    "dependencies": {
+        "@types/aws-lambda": "^0.0.14"
+    },
+    "devDependencies": {
+        "typescript": "^2.4.1"
+    }
+}
