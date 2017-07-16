@@ -1,6 +1,6 @@
 {
     "name": "lambda-cors",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "CORS for aws lambda",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
@@ -13,7 +13,12 @@
         "type": "git",
         "url": "git+https://github.com/kkpoon/lambda-cors.git"
     },
-    "keywords": ["aws", "lambda", "cors", "apigateway"],
+    "keywords": [
+        "aws",
+        "lambda",
+        "cors",
+        "apigateway"
+    ],
     "author": "kkpoon <noopkk@gmail.com>",
     "license": "Apache-2.0",
     "bugs": {
