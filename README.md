@@ -1,5 +1,13 @@
 # lambda-cors
 
+## Installation
+
+```shell
+npm install lambda-cors
+```
+
+## Usage
+
 In AWS API Gateway, it could ONLY set one origin for CORS.
 
 To allow multiple origins, we could delay the CORS check to lambda execution.
