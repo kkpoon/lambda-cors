@@ -24,7 +24,7 @@ export default (options: CorsOptions) => (handler: Handler) =>
                 if (!!options.maxAge) {
                     res.headers["Access-Control-Max-Age"] = options.maxAge;
                 }
-                res.headers['Access-Control-Allow-Headers'] =
+                res.headers['Access-Control-Allow-Methods'] =
                     options.allowMethod ?
                         options.allowMethod.join(",")
                         : "GET,HEAD,PUT,PATCH,POST,DELETE";
